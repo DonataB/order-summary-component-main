@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e0e8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.container {
+  width: 90%;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.content h1 {
+  padding: 20px 0;
+  font-size: 1.4rem;
+  color: #1f2f56;
+  font-weight: 900;
+}
+.content p {
+  width: 80%;
+  color: #7280a7;
+  text-align: center;
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width: 23%;
+  }
+}
+.header {
+  background-image: url("/images//illustration-hero.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 165px;
+}
+
+.box-plan {
+  margin: 30px 0;
+  padding: 20px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f7ff;
+  border-radius: 15px;
+}
+.box-plan a {
+  font-size: 13px;
+  font-weight: 900;
+  line-height: 3;
+}
+.box-plan h3 {
+  font-size: 15px;
+}
+.box-plan p {
+  font-size: 13px;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  width: 80%;
+  padding: 15px 30px;
+  border-radius: 13px;
+  font-weight: 900;
+}
+
+.payment {
+  background-color: #3829e0;
+  color: white;
+  box-shadow: 0px 15px 20px rgba(56, 41, 224, 0.3);
+}
+.payment:hover {
+  background-color: rgba(56, 41, 224, 0.7);
+}
+
+.cancel-payment {
+  margin: 20px;
+  background-color: transparent;
+  color: #7280a7;
+}
+.cancel-payment:hover {
+  color: #1f2f56;
+}/*# sourceMappingURL=main.css.map */

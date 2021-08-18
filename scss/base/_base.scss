@@ -1,0 +1,43 @@
+
+body {
+    background-color: $Pale-blue;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    font-family: $font;
+}
+
+.container {
+    width: 90%;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #fff;
+    
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h1{
+        padding: 20px 0;
+        font-size: 1.4rem;
+        color: $Dark-blue;    
+        font-weight: 900;
+    }
+    
+    p{
+        width:80%;
+        color: $Desaturated-blue;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1440px) {
+    .container {
+        width: 23%;
+    }
+}
