@@ -1,6 +1,6 @@
 
 body {
-    background-color: $Pale-blue;
+    background-color: $background-color;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -25,13 +25,13 @@ body {
     h1{
         padding: 20px 0;
         font-size: 1.4rem;
-        color: $Dark-blue;    
+        color: $dark--text-color;    
         font-weight: 900;
     }
     
     p{
         width:80%;
-        color: $Desaturated-blue;
+        color: $text-color;
         text-align: center;
     }
 }
