@@ -6,7 +6,7 @@
 
 body {
   background-color: #e0e8ff;
-  background-image: url("/images/pattern-background-mobile.svg");
+  background-image: url("../images/pattern-background-mobile.svg");
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
@@ -41,13 +41,13 @@ body {
   text-align: center;
 }
 
-@media (min-width: 380px) {
+@media (min-width: 3px) {
   body {
-    background-image: url("/images/pattern-background-desktop.svg");
+    background-image: url("../images/pattern-background-desktop.svg");
   }
 }
 .header {
-  background-image: url("/images//illustration-hero.svg");
+  background-image: url("../images/illustration-hero.svg");
   background-repeat: no-repeat;
   background-size: contain;
   height: 165px;
