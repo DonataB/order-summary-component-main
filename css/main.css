@@ -41,7 +41,7 @@ body {
   text-align: center;
 }
 
-@media (min-width: 3px) {
+@media (min-width: 380px) {
   body {
     background-image: url("../images/pattern-background-desktop.svg");
   }
