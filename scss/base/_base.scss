@@ -1,18 +1,21 @@
 
 body {
     background-color: $background-color;
+    background-image: url('/images/pattern-background-mobile.svg');
+    background-repeat: no-repeat;
     display:flex;
     justify-content:center;
     align-items:center;
     height:100vh;
-    font-family: $font;
+    font-family: $font-family;
 }
 
 .container {
     width: 90%;
+    max-width: 330px;
     border-radius: 15px;
     overflow: hidden;
-    background-color: #fff;
+    background-color: $container--background-color;
     
 }
 
@@ -36,8 +39,9 @@ body {
     }
 }
 
-@media (min-width: 1440px) {
-    .container {
-        width: 23%;
+@media (min-width: 380px) {
+    body {
+        background-image: url('/images/pattern-background-desktop.svg');
     }
+    
 }
